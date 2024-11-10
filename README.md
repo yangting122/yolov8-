@@ -16,17 +16,17 @@ CUDA 10.2 與 cuDNN 8.2.1
 安裝步驟
 安裝所需依賴：
 
-bash
+
 複製程式碼
 sudo apt update
 sudo apt install -y python3-pip
 pip install numpy torch torchvision torchaudio opencv-python ultralytics
-bash
+
 tensorrt.py有轉換的方法
-bash
+
 克隆專案：
 
-bash
+
 複製程式碼
 git clone https://github.com/yangting122/yolov8-.git
 cd yolov8car
@@ -35,10 +35,11 @@ cd yolov8car
 使用說明
 啟動偵測程式：
 
-bash
+
 複製程式碼
 python main.py
 註：若使用 Docker，請先啟動 Docker 容器。
+
 dockerset有相關code
 
 參數設置：
@@ -52,4 +53,5 @@ dockerset有相關code
 
 授權
 本專案基於 MIT 許可證發布。詳情請參閱 LICENSE 文件
+
 參考資料https://docs.ultralytics.com/guides/nvidia-jetson/
