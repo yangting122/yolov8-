@@ -21,6 +21,7 @@ bash
 sudo apt update
 sudo apt install -y python3-pip
 pip install numpy torch torchvision torchaudio opencv-python ultralytics
+tensorrt.py有轉換的方法
 克隆專案：
 
 bash
@@ -36,6 +37,7 @@ bash
 複製程式碼
 python main.py
 註：若使用 Docker，請先啟動 Docker 容器。
+dockerset有相關code
 
 參數設置：
 
@@ -47,4 +49,5 @@ python main.py
 歡迎對本專案進行改進，並提交 Pull Request。我們會審核所有提交並在合適時合併進主分支。
 
 授權
-本專案基於 MIT 許可證發布。詳情請參閱 LICENSE 文件。
+本專案基於 MIT 許可證發布。詳情請參閱 LICENSE 文件
+參考資料https://docs.ultralytics.com/guides/nvidia-jetson/
