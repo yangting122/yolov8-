@@ -21,7 +21,9 @@ bash
 sudo apt update
 sudo apt install -y python3-pip
 pip install numpy torch torchvision torchaudio opencv-python ultralytics
+bash
 tensorrt.py有轉換的方法
+bash
 克隆專案：
 
 bash
