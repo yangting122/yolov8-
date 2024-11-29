@@ -44,14 +44,9 @@ dockerset有相關code
 
 參數設置：
 
-在 config.yaml 中設置偵測參數，包括距離閾值、警告時間等。
+在 main 中設置偵測參數，包括距離閾值、警告時間等。
 輸出結果：
 
 偵測結果會即時顯示在外接螢幕上，並在符合條件時顯示 DANGER 標籤。
-貢獻
-歡迎對本專案進行改進，並提交 Pull Request。我們會審核所有提交並在合適時合併進主分支。
-
-授權
-本專案基於 MIT 許可證發布。詳情請參閱 LICENSE 文件
 
 參考資料https://docs.ultralytics.com/guides/nvidia-jetson/
